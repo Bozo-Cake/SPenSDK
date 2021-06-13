@@ -11,4 +11,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    /**
+     * https://developer.samsung.com/galaxy-spen-remote/overview.html
+     * https://developer.samsung.com/codelab/s-pen-remote/air-actions/overview.html
+     * Note :
+     * Specify the KeyEvent to be mapped to the S Pen Remote Event in a Manifest.
+     * Implement KeyEvent-Callback (if needed).
+     */
 }
